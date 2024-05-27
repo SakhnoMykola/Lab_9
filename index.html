@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakhno_Lab_9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul id="dogList" class="dog-list"></ul>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" alt="Dog Image">
+            <h2 id="modalTitle"></h3><hr>
+            <h4 class="gray">Sex:</h4>
+            <p><span id="modalSex"></span></p><hr>
+            <h4 class="gray">Age:</h4>
+            <p><span id="modalAge"></span></p><hr>
+            <h4 class="gray">Personality:</h4>
+            <p id="modalDescription"></p>
+            <a class="call" href="#"><strong> Adopt Me </strong></a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

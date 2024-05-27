@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+.dog-list {
+    list-style-type: none;
+    padding: 0;
+}
+.dog-item {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    background-color: #2c2c2c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.dog-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.dog-item h3 {
+    margin: 0;
+    font-size: 20px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 350px;
+    height: 800px;
+    
+}
+.modal-content img {
+    width: 350px;
+    height:450px;
+}
+.modal-content h3 {
+    margin-top: 0;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h4 {
+    color: #777777;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+hr{
+    margin-bottom: -10px;
+}
+p {
+margin-top: 2px
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background: #6200fa;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+}
